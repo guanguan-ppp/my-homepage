@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>我的个人主页</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .hero img {
+      width: 200px;
+      border-radius: 50%;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    form label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #eee;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>你好，我是关芝玉</h1>
+  <p>一个在学习前端开发的学生</p>
+</header>
+
+<nav>
+  <a href="#about">关于我</a>
+  <a href="#skills">技能</a>
+  <a href="#contact">联系我</a>
+</nav>
+
+<div class="hero">
+  <img src="https://i.imgur.com/2DhmtJ4.jpg" alt="头像">
+</div>
+
+<div class="section" id="about">
+  <h2>关于我</h2>
+  <p>我正在学习 HTML、CSS 和 JavaScript，希望未来能成为一名前端开发者。</p>
+</div>
+
+<div class="section" id="skills">
+  <h2>我的技能</h2>
+  <ul>
+    <li>✅ HTML & CSS 基础</li>
+    <li>✅ 正在学习 JavaScript</li>
+    <li>✅ 会使用 VS Code 和 Live Server</li>
+  </ul>
+</div>
+
+<div class="section" id="contact">
+  <h2>联系我</h2>
+  <form>
+    <label>姓名：</label>
+    <input type="text" placeholder="请输入你的名字">
+    
+    <label>邮箱：</label>
+    <input type="email" placeholder="请输入你的邮箱">
+
+    <label>留言：</label>
+    <textarea rows="4" placeholder="想对我说什么？"></textarea>
+
+    <br><br>
+    <input type="submit" value="发送" style="background-color:#333;color:white;cursor:pointer;">
+  </form>
+</div>
+
+<footer>
+  版权所有 © 2025 关的主页
+</footer>
+
+</body>
+</html>
